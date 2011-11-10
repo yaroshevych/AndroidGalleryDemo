@@ -11,13 +11,50 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int btn_black=0x7f020000;
+        public static final int btn_white_matte=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int image1=0x7f020003;
+        public static final int image2=0x7f020004;
+        public static final int image3=0x7f020005;
+    }
+    public static final class id {
+        public static final int buttonGallery=0x7f060003;
+        public static final int buttonRandom=0x7f060002;
+        public static final int gallery=0x7f060000;
+        public static final int ratingbar=0x7f060001;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
+        public static final int gallery=0x7f040002;
         public static final int hello=0x7f040000;
+        public static final int random=0x7f040003;
     }
+    public static final class style {
+        public static final int ButtonText=0x7f050000;
+    }
+    public static final class styleable {
+        /** Attributes that can be used with a GalleryDemo.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #GalleryDemo_android_galleryItemBackground com.brainunit.android.gallerydemo:android_galleryItemBackground}</code></td><td></td></tr>
+           </table>
+           @see #GalleryDemo_android_galleryItemBackground
+         */
+        public static final int[] GalleryDemo = {
+            0x0101004c
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.brainunit.android.gallerydemo.R.attr#android_galleryItemBackground}
+          attribute's value can be found in the {@link #GalleryDemo} array.
+          @attr name android:android_galleryItemBackground
+        */
+        public static final int GalleryDemo_android_galleryItemBackground = 0;
+    };
 }
